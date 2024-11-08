@@ -20,7 +20,7 @@ public class Randoms implements Iterable<Integer> {
     private class RandomIterator implements Iterator<Integer> {
         @Override
         public boolean hasNext() {
-            return true;  // Итератор бесконечный
+            return true;
         }
 
         @Override
